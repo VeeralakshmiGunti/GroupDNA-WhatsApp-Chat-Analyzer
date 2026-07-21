@@ -11,32 +11,80 @@ A Python-based WhatsApp Chat Analyzer developed as part of the GroupDNA Internsh
 - Count media and deleted messages
 - Activity Heatmap
 - Personality Archetypes
-- Final Chat Analysis Report
+- Generate final chat analysis report
+
+---
+
+## Project Structure
+
+```
+GroupDNA-WhatsApp-Chat-Analyzer/
+│
+├── README.md
+├── GroupDNA_WhatsApp_Chat_Analyzer_Veeralakshmi.ipynb
+│
+├── dataset/
+│   └── hostel_bois.txt
+│
+└── screenshots/
+    ├── personality_archetypes.png
+    ├── activity_heatmap.png
+    └── final_report.png
+```
+
+---
+
+## Dataset
+
+The sample WhatsApp chat dataset used for testing is available in the **dataset** folder.
+
+```
+dataset/
+└── hostel_bois.txt
+```
+
+---
+
+## Output Screenshots
+
+### Personality Archetypes
+
+![Personality Archetypes](screenshots/personality_archetypes.png)
+
+---
+
+### Activity Heatmap
+
+![Activity Heatmap](screenshots/activity_heatmap.png)
+
+---
+
+### Final Report
+
+![Final Report](screenshots/final_report.png)
+
+---
 
 ## Technologies Used
 
 - Python
-- NumPy
 - Google Colab
+- Regular Expressions (re)
+- Collections (Counter)
+- Datetime
+- File Handling
+
+---
+
+## How to Run
+
+1. Open the notebook in Google Colab or Jupyter Notebook.
+2. Upload the WhatsApp chat export (.txt file).
+3. Run all notebook cells.
+4. View the generated analysis report.
+
+---
 
 ## Author
 
 **Veeralakshmi Gunti**
-
-## Output Screenshots
-
-### Activity Heatmap
-
-![Activity Heatmap](activity_heatmap.png)
-
----
-
-### Personality Archetypes
-
-![Personality Archetypes](personality_archetypes.png)
-
----
-
-### Final Chat Analysis Report
-
-![Final Chat Analysis Report](final_report.png)
