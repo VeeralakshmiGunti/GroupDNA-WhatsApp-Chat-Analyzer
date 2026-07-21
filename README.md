@@ -41,8 +41,6 @@ The sample WhatsApp chat dataset used for testing is available in the dataset fi
 
 ![Final Chat Analysis Report](final_report.png)
 
----
-
 ## Technologies Used
 
 - Python
