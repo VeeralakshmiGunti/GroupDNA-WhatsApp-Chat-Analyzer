@@ -25,21 +25,23 @@ The sample WhatsApp chat dataset used for testing is available in the dataset fi
 
 ## Output Screenshots
 
-### 1. Activity Heatmap
+### Personality Archetypes
 
-![Activity Heatmap](activity_heatmap.png)
-
----
-
-### 2. Personality Archetypes
-
-![Personality Archetypes](personality_archetypes.png)
+![Personality Archetypes](screenshots/personality_archetypes.png)
 
 ---
 
-### 3. Final Chat Analysis Report
+### Activity Heatmap
 
-![Final Chat Analysis Report](final_report.png)
+![Activity Heatmap](screenshots/activity_heatmap.png)
+
+---
+
+### Final Report
+
+![Final Report](screenshots/final_report.png)
+
+---
 
 ## Technologies Used
 
